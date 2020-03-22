@@ -1,23 +1,34 @@
-# Project Description
-  ## Introduction
-  Realtime emotion detection with VggFace, DLLib, OpenCV, and Python 3.5
-  ## What it does? 
-  > What are the inputs/outputs? How does it work?
-  
-  ## Challenges
-  > Difficulties encountered
- ## Achievements
- > Progress, accomplishments
- 
-# Data 
- > Detailed data description
-- Cohn-Kanade (CK and CK+) Dataset
+# Realtime-Emotion-Detection 
+## Abstract
+8 types of emotions detected in real-time using OpenCV, Python3, Keras, Data Preprocessing, Deep Learning & Machine learning Techniques.
 
-Resource: http://www.consortium.ri.cmu.edu/ckagree/
- 
-# Folder Structure
+## Build
+You can build the project by executing following bash file:
+
+```bash
+./build.sh
 ```
+
+Support for operating-systems except Linux is not provided yet, you can use the equivalent commands in bash files for other operating-systems.
+
+## Run
+After build, you can enter the following command in your Linux Terminal to run the program:
+
+
+```bash
+./run.sh
+```
+Note that, you will get emotion detection results live and periodically. You can run "main.py" with "python3" if you want to see the emotion detection results in console. 
+
+## Data 
+**Dataset Name:** Cohn-Kanade (CK and CK+) Dataset
+**Dataset Source:** http://www.consortium.ri.cmu.edu/ckagree/
+ 
+## Folder Structure
+```bash
+$ tree -L 2
 .
+├── build.sh
 ├── camera_classifier.py
 ├── data
 │   ├── csvs
@@ -33,31 +44,20 @@ Resource: http://www.consortium.ri.cmu.edu/ckagree/
 ├── main.py
 ├── README.md
 ├── run.sh
-├── shape_predictor_68_face_landmarks.dat
-└── venv
-    ├── bin
-    ├── lib
-    ├── lib64 -> lib
-    └── pyvenv.cfg
-```    
-# Requirements
-All included in the virtual environment folder (/venv), so you don't need further requirements.
+└── shape_predictor_68_face_landmarks.dat
 
-# How to Run
-> How to run from the command line? How to reproduce the results?  How to test your system? 
-
-You can enter the following command in your Linux Terminal to run the program:
 ```
-./run.sh
-```
-Note that, you will get emotion detection result live and periodically. You can run "main.py" with "python3" if you want to see the emotion detection result in console. 
 
-# References
+## References
 - Facial landmarks with dlib, OpenCV, and Python: https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/
 
-# Additional Notes
+## Additional Notes
 If you have trouble with installing dllib library, you can check out the link: https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/
 
 ## Credits
 - Kanade, T., Cohn, J. F., & Tian, Y. (2000). Comprehensive database for facial expression analysis. Proceedings of the Fourth IEEE International Conference on Automatic Face and Gesture Recognition (FG'00), Grenoble, France, 46-53.
 - Lucey, P., Cohn, J. F., Kanade, T., Saragih, J., Ambadar, Z., & Matthews, I. (2010). The Extended Cohn-Kanade Dataset (CK+): A complete expression dataset for action unit and emotion-specified expression. Proceedings of the Third International Workshop on CVPR for Human Communicative Behavior Analysis (CVPR4HB 2010), San Francisco, USA, 94-101.
+
+## Contributors
+- Berk Sudan, [GitHub](https://github.com/berksudan), [LinkedIn](https://linkedin.com/in/berksudan/)
+- İrem Şahin, [GitHub](https://github.com/iremss),  [LinkedIn](https://linkedin.com/in/sahinirem/)
