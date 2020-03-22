@@ -22,6 +22,7 @@ Note that, you will get emotion detection results live and periodically. You can
 
 ## Data 
 **Dataset Name:** Cohn-Kanade (CK and CK+) Dataset
+
 **Dataset Source:** http://www.consortium.ri.cmu.edu/ckagree/
  
 ## Folder Structure
@@ -52,7 +53,7 @@ $ tree -L 2
 - Facial landmarks with dlib, OpenCV, and Python: https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/
 
 ## Additional Notes
-If you have trouble with installing dllib library, you can check out the link: https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/
+**#1** If you have trouble with installing dllib library, you can check out the link: https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/
 
 ## Credits
 - Kanade, T., Cohn, J. F., & Tian, Y. (2000). Comprehensive database for facial expression analysis. Proceedings of the Fourth IEEE International Conference on Automatic Face and Gesture Recognition (FG'00), Grenoble, France, 46-53.
