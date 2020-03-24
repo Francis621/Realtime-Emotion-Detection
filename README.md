@@ -9,7 +9,7 @@ You can build the project by executing following bash file:
 ./build.sh
 ```
 
-Build instructions for operating-systems except Linux is not provided yet, you can use the equivalent commands in bash files for other operating-systems.
+Build instructions for Linux is provided only, you can use the equivalent commands for other operating-systems.
 
 Note that, if you have trouble with installing dllib library, you can check out the [link](https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/).
 
